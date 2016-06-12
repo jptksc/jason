@@ -47,6 +47,16 @@
 
         opacity: 1;
     }
+
+    @media ($break-s) {
+        &:hover {
+            background-position: center center;
+        }
+
+        &:after {
+            display: none;
+        }
+    }
 }
 
 .icon.email {

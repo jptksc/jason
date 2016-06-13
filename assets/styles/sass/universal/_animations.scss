@@ -7,7 +7,7 @@
     animation-fill-mode: both;
 }
 
-// Bounce in.
+// Bounce: The boince in animation for the copy.
 
 .bounce-in {
     animation-name: bounce-in;
@@ -20,11 +20,13 @@
 
     0% {
         opacity: 0;
+
         transform: translate3d(-3000px, -50%, 0);
     }
 
     60% {
         opacity: 1;
+        
         transform: translate3d(25px, -50%, 0);
     }
 

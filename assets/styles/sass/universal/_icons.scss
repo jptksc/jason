@@ -18,6 +18,12 @@
 
     opacity: 0.85;
 
+    &:hover {
+        background-position: top 5px center;
+    }
+
+    // Labels: The little fade label above each icon.
+
     &:after {
         background-color: $color-light-light;
 
@@ -38,15 +44,13 @@
         opacity: 0;
     }
 
-    &:hover {
-        background-position: top 5px center;
-    }
-
     &:hover:after {
         top: -20px;
 
         opacity: 1;
     }
+
+    // Small: No labels for mobile.
 
     @media ($break-s) {
         &:hover {

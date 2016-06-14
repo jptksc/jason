@@ -1,57 +1,16 @@
 
-/* Animations
+/* Pulse
 ---------------------------------------------------------------------------------------------------- */
 
-.animated {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-}
-
-// Bounce: The boince in animation for the copy.
-
-.bounce-in {
-    animation-name: bounce-in;
-}
-
-@keyframes bounce-in {
-    from, 60%, 75%, 90%, to {
-        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    }
-
-    0% {
-        opacity: 0;
-
-        transform: translate3d(-3000px, -50%, 0);
-    }
-
-    60% {
-        opacity: 1;
-
-        transform: translate3d(25px, -50%, 0);
-    }
-
-    75% {
-        transform: translate3d(-10px, -50%, 0);
-    }
-
-    90% {
-        transform: translate3d(5px, -50%, 0);
-    }
-
-    to {
-        transform: translate3d(0, -50%);
-    }
-}
-
-// Pulse: Make it look like someone's working.
-
-.pulse {
-    animation: pulse ease infinite;
+@mixin animation-pulse() {
+    animation-name: pulse;
     animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
 }
 
 @keyframes pulse {
-    from {
+    0% {
         transform:scale(.85);
 
         opacity: 0.75;
@@ -63,21 +22,51 @@
         opacity: 1;
     }
 
-    to {
+    100% {
         transform:scale(.85);
 
         opacity: 0.75;
     }
 }
 
-// Fade: Fade in animation.
+/* Fade In
+---------------------------------------------------------------------------------------------------- */
+
+@mixin animation-fade-in($duration) {
+    animation-name: fade-in;
+    animation-fill-mode: both;
+    animation-duration: $duration;
+}
 
 @keyframes fade-in {
-    from {
+    0% {
         opacity: 0;
     }
 
-    to {
+    100% {
         opacity: 1;
+    }
+}
+
+/* Fade In Down
+---------------------------------------------------------------------------------------------------- */
+
+@mixin animation-fade-in-down($duration) {
+    animation-name: fade-in-down;
+    animation-fill-mode: both;
+    animation-duration: $duration;
+}
+
+@keyframes fade-in-down {
+    0% {
+        opacity: 0;
+
+        transform: translate(0, -60%);
+    }
+
+    100% {
+        opacity: 1;
+
+        transform: translate(0, -50%);
     }
 }

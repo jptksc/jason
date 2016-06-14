@@ -3,9 +3,7 @@
 ---------------------------------------------------------------------------------------------------- */
 
 .working {
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    animation-name: fade-in;
+    @include animation-fade-in(5s);
 
     border-radius: 3px 15px 15px 3px;
 
@@ -22,9 +20,14 @@
     line-height: 20px;
     color: $color-light-normal;
 
+    &:hover {
+        color: $color-light-heavy;
+    }
+
+    // Currently: The working indicator.
+
     &:after {
-        animation: pulse ease infinite;
-        animation-duration: 1.5s;
+        @include animation-pulse();
 
         border: 2px solid $color-green-heavy;
         border-radius: 50%;
@@ -37,9 +40,7 @@
         right: 0;
     }
 
-    &:hover {
-        color: $color-light-heavy;
-    }
+    // Small: Need to work on mobile styling.
 
     @media ($break-m) {
         display: none;

@@ -3,7 +3,9 @@
 ---------------------------------------------------------------------------------------------------- */
 
 #profile {
-    background-image: url(../images/profile.jpg);
+    @include animation-fade-in(10s);
+
+    background-image: url(../images/profile.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

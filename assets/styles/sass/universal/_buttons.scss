@@ -1,4 +1,26 @@
 
+/* Labels
+---------------------------------------------------------------------------------------------------- */
+
+.label {
+    background-color: $color-light-light;
+
+    border-radius: 3px;
+
+    position: absolute;
+
+    padding: 5px 5px 4px;
+
+    font-size: 10px;
+    line-height: 1;
+    color: $color-light-normal;
+    white-space: nowrap;
+
+    opacity: 0;
+
+    transition-duration: 0.25s;
+}
+
 /* Icons
 ---------------------------------------------------------------------------------------------------- */
 
@@ -24,27 +46,13 @@
 
     // Labels: The little fade label above each icon.
 
-    &:after {
-        background-color: $color-light-light;
-
-        border-radius: 3px;
-
-        position: absolute;
+    .label {
         top: -30px;
         left: 50%;
         transform: translate(-50%, 0);
-
-        padding: 5px 5px 4px;
-
-        font-size: 10px;
-        line-height: 1;
-        color: $color-light-normal;
-        white-space: nowrap;
-
-        opacity: 0;
     }
 
-    &:hover:after {
+    &:hover .label {
         top: -20px;
 
         opacity: 1;
@@ -57,7 +65,7 @@
             background-position: center center;
         }
 
-        &:after {
+        .label {
             display: none;
         }
     }
@@ -65,40 +73,20 @@
 
 .icon.email {
     background-image: url(../images/icon-email.png);
-
-    &:after {
-        content: "Email: hi@jason.sc";
-    }
 }
 
 .icon.instagram {
     background-image: url(../images/icon-instagram.png);
-
-    &:after {
-        content: "Instagram: @Ca.75";
-    }
 }
 
 .icon.medium {
     background-image: url(../images/icon-medium.png);
-
-    &:after {
-        content: "Medium: @jasonsc";
-    }
 }
 
 .icon.twitter {
     background-image: url(../images/icon-twitter.png);
-
-    &:after {
-        content: "Twitter: @jschuller";
-    }
 }
 
 .icon.dribbble {
     background-image: url(../images/icon-dribbble.png);
-
-    &:after {
-        content: "Dribbble: @jason";
-    }
 }

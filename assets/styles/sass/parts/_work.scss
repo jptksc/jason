@@ -1,0 +1,117 @@
+
+/* Work: Will become a full timeline for previous work as well.
+---------------------------------------------------------------------------------------------------- */
+
+#work {
+    @include animation-fade-in(5s);
+
+    width: 21px;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 20;
+
+    &:after {
+        background-color: $color-light-light;
+
+        width: 1px;
+        height: calc(100% - 12px);
+
+        position: absolute;
+        top: 6px;
+        right: 10px;
+    }
+}
+
+.work {
+    border-radius: 3px 15px 15px 3px;
+
+    height: 21px;
+
+    float: right;
+
+    position: relative;
+    z-index: 30;
+
+    padding-right: 30px;
+
+    font-size: 12px;
+    line-height: 21px;
+    color: $color-light-light;
+    white-space: nowrap;
+
+    &:not(:last-of-type) {
+        padding-bottom: 40px;
+    }
+
+    &:nth-child(1) {
+        color: $color-light-normal;
+    }
+
+    &:hover {
+        color: $color-light-heavy;
+    }
+
+    // Bullets: The working indicator.
+
+    &:before {
+        background-color: $color-dark-light;
+
+        border-radius: 50%;
+
+        width: 7px;
+        height: 7px;
+
+        position: absolute;
+        top: 7px;
+        right: 7px;
+    }
+
+    // Circles: The hover circle.
+
+    &:after {
+        border: 2px solid $color-light-light;
+        border-radius: 50%;
+
+        width: 21px;
+        height: 21px;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        opacity: 0;
+    }
+
+    &:hover:not(:nth-child(1)):after {
+        opacity: 1;
+    }
+
+    // Circles: The current circle.
+
+    &:nth-child(1):after {
+        @include animation-pulse();
+
+        border-color: $color-green-heavy;
+    }
+
+    // Labels: The little fade label above each icon.
+
+    .label {
+        right: 122px;
+    }
+
+    &:nth-child(1) .label,
+    &:hover .label {
+        right: 112px;
+
+        opacity: 1;
+    }
+
+    // Small: Need to work on mobile styling.
+
+    @media ($break-m) {
+        display: none;
+    }
+}

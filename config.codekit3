@@ -15,14 +15,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/assets\/images\/2017-01-01 14.08.22.jpg": {
-		"ft": 16384,
-		"iS": 1088176,
-		"oA": 0,
-		"oAP": "\/assets\/images\/2017-01-01 14.08.22.jpg",
-		"oF": 0,
-		"opt": 1
-		},
 	"\/assets\/images\/background.jpg": {
 		"ft": 16384,
 		"iS": 2150164,
@@ -39,163 +31,7 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/assets\/styles\/sass\/.sass-cache\/05cbaa02975a5e1803f2660862969ad6c380e5d3\/_buttons.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/05cbaa02975a5e1803f2660862969ad6c380e5d3\/_buttons.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/05cbaa02975a5e1803f2660862969ad6c380e5d3\/_mixins.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/05cbaa02975a5e1803f2660862969ad6c380e5d3\/_mixins.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/05cbaa02975a5e1803f2660862969ad6c380e5d3\/_normalize.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/05cbaa02975a5e1803f2660862969ad6c380e5d3\/_normalize.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/05cbaa02975a5e1803f2660862969ad6c380e5d3\/_typography.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/05cbaa02975a5e1803f2660862969ad6c380e5d3\/_typography.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/05cbaa02975a5e1803f2660862969ad6c380e5d3\/_variables.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/05cbaa02975a5e1803f2660862969ad6c380e5d3\/_variables.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/113db1e7909fc71474e0fb6db13fc637933a3b2a\/site.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/113db1e7909fc71474e0fb6db13fc637933a3b2a\/site.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/52812982fdd35781bdc383c90d4f585c9899864b\/site.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/52812982fdd35781bdc383c90d4f585c9899864b\/site.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/5d82032f3da475c84589aca5064c3d22b329e8f0\/_animations.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/5d82032f3da475c84589aca5064c3d22b329e8f0\/_animations.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/5d82032f3da475c84589aca5064c3d22b329e8f0\/_body.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/5d82032f3da475c84589aca5064c3d22b329e8f0\/_body.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/5d82032f3da475c84589aca5064c3d22b329e8f0\/_buttons.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/5d82032f3da475c84589aca5064c3d22b329e8f0\/_buttons.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/5d82032f3da475c84589aca5064c3d22b329e8f0\/_icons.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/5d82032f3da475c84589aca5064c3d22b329e8f0\/_icons.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/5d82032f3da475c84589aca5064c3d22b329e8f0\/_normalize.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/5d82032f3da475c84589aca5064c3d22b329e8f0\/_normalize.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/5d82032f3da475c84589aca5064c3d22b329e8f0\/_typography.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/5d82032f3da475c84589aca5064c3d22b329e8f0\/_typography.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/5d82032f3da475c84589aca5064c3d22b329e8f0\/_variables.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/5d82032f3da475c84589aca5064c3d22b329e8f0\/_variables.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/79eb2ac7d1e522a3172c1be9078baf670ad3a160\/_main-about.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/79eb2ac7d1e522a3172c1be9078baf670ad3a160\/_main-about.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/79eb2ac7d1e522a3172c1be9078baf670ad3a160\/_main-mask.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/79eb2ac7d1e522a3172c1be9078baf670ad3a160\/_main-mask.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/79eb2ac7d1e522a3172c1be9078baf670ad3a160\/_main.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/79eb2ac7d1e522a3172c1be9078baf670ad3a160\/_main.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/79eb2ac7d1e522a3172c1be9078baf670ad3a160\/_video.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/79eb2ac7d1e522a3172c1be9078baf670ad3a160\/_video.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_about.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_about.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_body.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_body.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_main-about.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_main-about.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_main-profile.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_main-profile.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_main.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_main.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_profile.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_profile.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_work.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_work.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_working.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_working.scssc",
-		"oF": 0
-		},
-	"\/assets\/styles\/sass\/parts\/_about.scss": {
+	"\/assets\/styles\/parts\/_about.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -203,12 +39,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/_about.css",
+		"oAP": "\/assets\/styles\/parts\/_about.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/styles\/sass\/parts\/_work.scss": {
+	"\/assets\/styles\/parts\/_media.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -216,12 +52,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/_work.css",
+		"oAP": "\/assets\/styles\/parts\/_media.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/styles\/sass\/parts\/media.scss": {
+	"\/assets\/styles\/parts\/_work.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -229,72 +65,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/media.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/assets\/styles\/sass\/site.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/styles\/site.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/assets\/styles\/sass\/universal\/_animations.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/_animations.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/assets\/styles\/sass\/universal\/_normalize.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/_normalize.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/assets\/styles\/sass\/universal\/_setup.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/_setup.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/assets\/styles\/sass\/universal\/_typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/sass\/_typography.css",
+		"oAP": "\/assets\/styles\/parts\/_work.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -308,6 +79,71 @@
 		"oAP": "\/assets\/styles\/site-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/assets\/styles\/site.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/styles\/site.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/styles\/universal\/_animations.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/styles\/universal\/_animations.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/styles\/universal\/_normalize.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/styles\/universal\/_normalize.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/styles\/universal\/_setup.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/styles\/universal\/_setup.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/styles\/universal\/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/styles\/universal\/_typography.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
 		},
 	"\/CNAME": {
 		"ft": 8192,
@@ -2224,7 +2060,7 @@
 		"autoOutputPathRelativePath": "..\/",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,

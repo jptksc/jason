@@ -30,10 +30,10 @@
     @include animation-fade-in(2s);
 
     &:hover {
-      transform: translateY(-3px);
+      padding-left: 65px;
     }
 
-    span {
+    .profile {
       width: 50px;
       height: 50px;
 
@@ -51,6 +51,16 @@
       box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 
       @include animation-fade-in(2s);
+    }
+
+    span {
+      &:first-of-type {
+        color: rgba(#000000, 0.5);
+      }
+
+      &:last-of-type {
+        color: rgba(#000000, 0.35);
+      }
     }
   }
 

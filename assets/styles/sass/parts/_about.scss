@@ -124,11 +124,7 @@
   @media (max-width: 580px) {
     .copy {
       bottom: 43px;
-    }
-  }
 
-  @media (max-width: 320px) {
-    .copy {
       p {
         &:last-of-type {
           padding-bottom: 18px;

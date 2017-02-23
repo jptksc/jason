@@ -20,7 +20,7 @@
 
     border-radius: 20px 3px 3px 20px;
 
-    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(#000000, .08);
+    box-shadow: 0 1px 2px rgba(#000000, .05), 0 1px 10px rgba(#000000, .025);
 
     font-size: 12px;
     line-height: 40px;
@@ -30,8 +30,7 @@
     @include animation-fade-in(2s);
 
     &:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(#000000, .08);
+      transform: translateY(-3px);
     }
 
     span {

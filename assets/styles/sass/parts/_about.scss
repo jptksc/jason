@@ -133,6 +133,16 @@
     .copy {
       bottom: 43px;
 
+      h1 {
+        width: 100%;
+        float: left;
+
+        span {
+          width: 100%;
+          float: left;
+        }
+      }
+
       p {
         &:last-of-type {
           padding-bottom: 18px;

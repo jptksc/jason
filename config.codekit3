@@ -7,7 +7,7 @@
 		"uuidString": "49FC8F91-8642-48AF-BA41-7F883D19006F"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -179,6 +179,19 @@
 		"oAP": "\/assets\/styles\/sass\/.sass-cache\/9a705e790a39e91f90240a171330babf4a9c0fd0\/_working.scssc",
 		"oF": 0
 		},
+	"\/assets\/styles\/sass\/parts\/_about.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/styles\/sass\/_about.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/styles\/sass\/parts\/_work.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -256,6 +269,16 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/assets\/styles\/site.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/styles\/site-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/CNAME": {
 		"ft": 8192,
@@ -1182,6 +1205,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -1510,6 +1537,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -1603,6 +1634,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},

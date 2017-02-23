@@ -67,7 +67,7 @@
           height: 6px;
 
           position: absolute;
-          bottom: 0;
+          bottom: 4px;
           left: 0;
 
           background-color: rgba(#000000, 0.05);
@@ -83,7 +83,7 @@
 
     p {
       &:last-of-type {
-        padding: 0 0 43px;
+        padding-bottom: 43px;
         margin-bottom: 43px;
 
         border-bottom: 1px solid rgba(#000000, 0.05);

@@ -15,11 +15,27 @@ body {
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 12px;
+  font-weight: 700;
   line-height: 1.5;
-  color: #000000;
 
-  margin-bottom: 33px;
+  text-transform: uppercase;
+
+  margin-bottom: 11px;
+
+  span {
+    &:nth-child(1) {
+      color: rgba(#000000, 0.25);
+    }
+
+    &:nth-child(2) {
+      color: rgba(#000000, 0.2);
+    }
+
+    &:nth-child(3) {
+      color: rgba(#000000, 0.15);
+    }
+  }
 
   @media (max-width: 580px) {
     margin-bottom: 8px;
@@ -30,13 +46,5 @@ h2 {
   font-size: 25px;
   line-height: 1.25;
 
-  margin-bottom: 34px;
-
-  strong {
-    color: #000000;
-  }
-
-  @media (max-width: 580px) {
-    margin-bottom: 9px;
-  }
+  margin-bottom: 9px;
 }

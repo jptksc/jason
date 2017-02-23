@@ -3,70 +3,70 @@
 ---------------------------------------------------------------------------------------------------- */
 
 @mixin animation-pulse() {
-    animation-name: pulse;
-    animation-duration: 1.5s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
 }
 
 @keyframes pulse {
-    0% {
-        transform:scale(.85);
+  0% {
+    transform:scale(.85);
 
-        opacity: 0.75;
-    }
+    opacity: 0.75;
+  }
 
-    50% {
-        transform:scale(1);
+  50% {
+    transform:scale(1);
 
-        opacity: 1;
-    }
+    opacity: 1;
+  }
 
-    100% {
-        transform:scale(.85);
+  100% {
+    transform:scale(.85);
 
-        opacity: 0.75;
-    }
+    opacity: 0.75;
+  }
 }
 
 /* Fade In
 ---------------------------------------------------------------------------------------------------- */
 
 @mixin animation-fade-in($duration) {
-    animation-name: fade-in;
-    animation-fill-mode: both;
-    animation-duration: $duration;
+  animation-name: fade-in;
+  animation-fill-mode: both;
+  animation-duration: $duration;
 }
 
 @keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Fade In Down
 ---------------------------------------------------------------------------------------------------- */
 
 @mixin animation-fade-in-down($duration) {
-    animation-name: fade-in-down;
-    animation-fill-mode: both;
-    animation-duration: $duration;
+  animation-name: fade-in-down;
+  animation-fill-mode: both;
+  animation-duration: $duration;
 }
 
 @keyframes fade-in-down {
-    0% {
-        opacity: 0;
+  0% {
+    opacity: 0;
 
-        transform: translate(0, -60%);
-    }
+    transform: translate(0, -20%);
+  }
 
-    100% {
-        opacity: 1;
+  100% {
+    opacity: 1;
 
-        transform: translate(0, -50%);
-    }
+    transform: translate(0, 0);
+  }
 }

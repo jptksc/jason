@@ -2,14 +2,11 @@
 // Universals: Get all universal styles.
 
 @import 'universal/normalize',
-        'universal/variables',
         'universal/animations',
         'universal/typography',
-        'universal/buttons',
-        'universal/body';
+        'universal/setup';
 
 // Content: Get all content specific styles.
 
 @import 'parts/work',
-        'parts/about',
-        'parts/profile';
+        'parts/about';

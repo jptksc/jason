@@ -2,42 +2,41 @@
 /* Typography
 ---------------------------------------------------------------------------------------------------- */
 
-// Colors: Font colors.
-
-$font-color-normal:  rgba(255, 255, 255, 0.65);
-$font-color-heavy: rgba(255, 255, 255, 0.85);
-
-// Styles: Font styles.
-
 body {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.75;
-    color: $font-color-normal;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: rgba(#000000, 0.5);
+
+  a {
+    color: rgba(#000000, 0.5);
+  }
 }
 
 h1 {
-    font-family: "Merriweather", sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 1.25;
-    color: $font-color-heavy;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000000;
 
-    margin-bottom: 25px;
+  margin-bottom: 33px;
+
+  @media (max-width: 320px) {
+    margin-bottom: 8px;
+  }
 }
 
-a {
-    color: $font-color-heavy;
-}
+h2 {
+  font-size: 25px;
+  line-height: 1.25;
 
-@media ($break-s) {
-    body {
-        font-size: 14px;
-    }
+  margin-bottom: 34px;
 
-    h1 {
-        font-size: 42px;
-        line-height: 1.45;
-    }
+  strong {
+    color: #000000;
+  }
+
+  @media (max-width: 320px) {
+    margin-bottom: 9px;
+  }
 }
